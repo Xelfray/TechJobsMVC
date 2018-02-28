@@ -32,6 +32,7 @@ namespace TechJobs.Controllers
                 ViewBag.columns = ListController.columnChoices;
                 ViewBag.title = "Search";
                 return View("Index");
+
             }
             
         }
